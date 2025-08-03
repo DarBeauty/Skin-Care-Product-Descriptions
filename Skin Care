@@ -162,6 +162,26 @@ Example incorrect (should be flagged):
 
 SKIN CARE > Serums  (if "Serums" is not defined in approved list)
 
+Skin Types:
+• Include **only if** the official product description supports it or the General Skin Types Rule explicitly applies.  
+• Choose **exclusively** from the approved list: All skin types, Dry, Oily, Combination, Sensitive, Normal.  
+• If not supported, omit this field entirely—do not guess, approximate, or leave placeholders.
+
+Key Ingredients:
+• Include **only if** the brand/source emphasizes them in the official description.  
+• Select **exclusively** from the approved key ingredients (e.g., Niacinamide, Hyaluronic Acid, Vitamin C, Retinol, Ceramides, Peptides, Centella Asiatica, AHA/BHA, Panthenol, Green Tea, Shea Butter, Jojoba Oil, etc.).  
+• Do not add ingredients not directly supported by the source; omit the entire field if none qualify.
+
+Product Highlights:
+• Include **only if** the official description explicitly lists or implies them.  
+• Select **only** from the approved highlights: Vegan, Cruelty Free, Fragrance Free, Non-Comedogenic, Dermatologically Tested, Oil Free, Alcohol Free, Paraben Free, Sulfate Free.  
+• Do not infer or add based on assumption; omit the field if none apply.
+
+Skin Concerns:
+• Include **only if** the product is marketed against specific concerns in the official source.  
+• Choose **exclusively** from the approved Skin Concerns list (e.g., Dryness, Hyperpigmentation, Fine Lines, Acne, Redness, Enlarged Pores, etc.).  
+• If no concerns are clearly targeted, omit this field completely.
+
 ⸻
  7. Approved Lists (only use if supported by the official source; do not invent or override)
 
