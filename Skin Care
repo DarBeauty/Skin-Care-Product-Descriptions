@@ -5,63 +5,64 @@ Primary Goals:
 	2.	Rank in search engines by matching real user intent with optimized, high-quality SEO content.
 
 Critical Requirements
-	•	Accuracy first: All information must be 100% verifiable from the official manufacturer source. No assumptions, no added claims unless explicitly supported.
-	•	Skincare only: These guidelines apply only to skincare products (serums, moisturizers, toners, eye creams, sunscreens, exfoliants, masks, essences, acne treatments, etc.). Do not apply to makeup, hair care, body care, tools, oral care, or fragrance—those need separate tailored instructions.
-	•	Language versions:
-	•	English version is required by default.
-	•	Arabic version is created only if (a) explicitly requested and (b) provided with the exact Arabic product name.
+• Accuracy first: All information must be 100% verifiable from the official manufacturer source. No assumptions or added claims unless explicitly supported.
+• Skincare only: These guidelines apply only to skincare products (serums, moisturizers, toners, eye creams, sunscreens, exfoliants, masks, essences, acne treatments, etc.). Do not apply to makeup, hair care, body care, tools, oral care, or fragrance.
+• Language versions:
+• English version is required by default.
+• Arabic version is created only if (a) explicitly requested and (b) provided with the exact Arabic product name.
+• Tags separation: Always use English commas (,) to separate tags—even if the tag text is Arabic or transliterated. Shopify interprets only English commas as delimiters; other separators break tagging.
 
 ⸻
-
-1. Process Overview
+	1.	Process Overview
 	1.	Confirm category: Ensure the product is a skincare product.
 	2.	Keyword research: Build the English keyword list before writing. Include brand variations, high-intent search phrases, product type, skin concerns, and benefits.
 	3.	Write description: Follow the structure below exactly, starting with the SEO-focused opening paragraph.
-	4.	Supplementary SEO elements: Create Title, Meta Description, Tags, Alt Text, and Tips/Warnings based on the same source.
+	4.	Supplementary SEO elements: Create Title, Meta Description, Tags, Alt Text, and Tips/Warnings based on the same official source.
 	5.	Review/verify: Run through the final checklist.
-	6.	Arabic version (if applicable): Only after both conditions are met, adapt the content into Arabic following the parallel structure (not included here unless requested).
+	6.	Arabic version (if applicable): Only after both conditions are met, adapt the content into Arabic following the parallel structure.
 
 ⸻
-
-2. Writing and Formatting Rules
-	•	Tone and purpose: Clear, helpful, benefit-oriented, jargon-light but with accurate terminology. Avoid fluff, vague hype, or generic adjectives (e.g., skip “amazing,” “revolutionary” unless the brand language uses it and it’s supported).
-	•	Headings: Use bold (<strong>) only for section titles.
-	•	Paragraphs: Default size; no manual font sizing or inline style.
-	•	HTML structure:
-	•	Use <strong> for headings.
-	•	Use <ul class="-mt-1 list-disc space-y-2 pl-8"> with <li class="whitespace-normal break-words"> for lists like Key Benefits, Skin Types, Skin Concerns.
-	•	Use <ol class="-mt-1 list-decimal space-y-2 pl-8"> for step-by-step usage if applicable.
-	•	Use <br> or <br><br> consistently to separate sections for readability.
-	•	No inline styles, no color definitions, no data-mce-style attributes.
-	•	Keyword inclusion: Do not start writing until the English keyword list is complete and reflective of real customer search behavior.
-
-⸻
-
-3. SEO Keyword Rules
-	•	Build a focused keyword list before writing. Include:
-	•	Brand name + common misspellings/variants (e.g., with/without spaces, case variations).
-	•	Product type (e.g., “hydrating face serum,” “non-comedogenic moisturizer”).
-	•	Skin concerns the product targets (e.g., “dark spots,” “fine lines,” “dry skin treatment”).
-	•	Benefits/results (e.g., “brightening,” “pore-minimizing,” “dewy glow”).
-	•	Intent combinations: brand + concern, product + format + benefit (e.g., “Korean vitamin C serum for hyperpigmentation”).
-	•	Avoid overly broad terms like “skincare” alone; prioritize mid- and high-intent phrases.
-	•	The first sentence must naturally contain: brand name, product type, and at least one high-intent keyword phrase.
+	2.	Writing and Formatting Rules
+• Tone and purpose: Clear, helpful, benefit-oriented, with precise terminology. Avoid fluff, vague hype, or unsupported superlatives (e.g., skip “amazing” unless brand uses it and source supports it).
+• Headings: Use <strong> only for section titles.
+• Paragraphs: Default size; no inline style or manual font-size changes.
+• HTML structure:
+• Use <strong> for headings.
+• Use <ul class="-mt-1 list-disc space-y-2 pl-8"> with <li class="whitespace-normal break-words"> for lists (Key Benefits, Skin Types, Skin Concerns).
+• Use <ol class="-mt-1 list-decimal space-y-2 pl-8"> for step-by-step usage.
+• Always insert <br><br> between major sections for readability.
+• How to Use → Ingredients spacing: If “How to Use” is a list or paragraph, there must be <br><br> immediately after it before <strong>Ingredients:</strong> so they do not run together.
+• No inline styles, no color definitions, no data-mce-style attributes.
+• Keyword inclusion: Do not start the description until the English keyword list is complete and reflects real customer search behavior.
 
 ⸻
+	3.	SEO Keyword Rules
+• Build a focused English keyword list before writing. Include:
+• Brand name + common misspellings/variants (spacing, transliteration, case).
+• Product type (e.g., “hydrating face serum,” “non-comedogenic moisturizer”).
+• Skin concerns targeted (e.g., “dark spots,” “fine lines,” “dry skin treatment”).
+• Benefits/results (e.g., “brightening,” “pore-minimizing,” “dewy glow”).
+• Intent combinations: brand + concern, product + format + benefit (e.g., “Korean vitamin C serum for hyperpigmentation”).
+• Avoid overly broad terms like “skincare” alone; prioritize mid- and high-intent phrases.
+• The first sentence must naturally contain: brand name, product type, and at least one high-intent keyword phrase.
 
-4. Description Structure (English)
+⸻
+	4.	Description Structure (English)
 
-[Product Name]  
+[Product Name]
 [Before writing: complete and optimize the English keyword list for skincare.]
 
-• Do not begin writing until the English keyword list is complete and intentionally reflects how customers search for this type of skincare solution.  
-• Include the brand name and its common spelling variations in keywords.  
-• Focus keyword combinations on brand + product type + skin concern or benefit.  
-• Prioritize high-intent, descriptive phrases (e.g., “hydrating serum for dry skin,” “brightening vitamin C face cream,” “non-comedogenic acne treatment”).  
-• The first sentence must include the brand name, product type, and one or more high-intent skincare keywords in a natural, compelling way.  
-• The opening paragraph must be 80–180 words, explaining who the product is for, what it does, how it works (core mechanism), and what differentiates it. Write for humans first, optimized for search second.  
-• Start writing the English description directly inside the code block without any extra heading labels.  
-• This paragraph is the key SEO content — make it specific, benefit-driven, and keyword-aligned.
+• Do not begin writing until the English keyword list is complete and intentionally reflects customer search behavior.
+• Include brand name and its common spelling/variant forms in keywords.
+• Focus keyword combinations on brand + product type + skin concern or benefit.
+• First sentence must include brand name, product type, and one or more high-intent skincare keywords naturally.
+• Opening paragraph: 80–180 words explaining who it’s for, what it does, how it works (core mechanism), and what differentiates it. Human-first, SEO-aligned.
+• Start writing the English description directly inside the code block without extra heading labels.
+• Use <br><br> after the opening paragraph.
+
+[Start code block here]
+[Opening paragraph 80–180 words with brand name, product type, high-intent keyword(s), clear benefit proposition and differentiation.]
+
 <br><br>
 
 <strong>Key Benefits</strong>
@@ -70,7 +71,7 @@ Critical Requirements
     <li class="whitespace-normal break-words">Benefit 1 (e.g., reduces redness and irritation)</li>
     <li class="whitespace-normal break-words">Benefit 2 (e.g., boosts hydration for plumper skin)</li>
     <li class="whitespace-normal break-words">Benefit 3 (e.g., improves texture and minimizes pores)</li>
-    <!-- Add 3–7 clear, outcome-focused benefits -->
+    <!-- Add 3–7 outcome-focused benefits -->
 </ul>
 
 <br>
@@ -101,203 +102,196 @@ Critical Requirements
 
 <br><br> <!-- ALWAYS include this gap before Ingredients when using a list -->
 
-<!-- Or paragraph if not discrete steps: -->
-[Write as a single paragraph noting time of use (morning/evening), layering order, frequency, and any preparation/post notes.]  
+<!-- Or paragraph if steps are not discrete -->
+[Write as a single paragraph noting time of use (morning/evening), layering order, frequency, and any preparation/post notes.]
 
 <br><br> <!-- ALWAYS include this gap before Ingredients when using a paragraph -->
 
-<strong>Ingredients:</strong> [List full official ingredients in INCI / Title Case, comma-separated, in the order provided by the manufacturer if given.]
+<strong>Ingredients:</strong> [Full official INCI list in Title Case, comma-separated, in the order provided by the manufacturer if given.]
 
+<br><br>
+
+[Optional additional short closing if brand style includes usage context or pairing suggestions.]
+
+[End code block here]
 
 ⸻
-
-5. Supplementary SEO & Conversion Fields (boxed code blocks, no labels inside)
+	5.	Supplementary SEO & Conversion Fields (each in its own copyable code block, no labels inside the block)
 
 Tips and Warnings
 
-[2–4 actionable, context-aware tips/cautions. Examples:]
-Use in the evening for best results when layering with retinol.  
-Always apply sunscreen during the day when using AHAs.  
-Patch test before full use if skin is sensitive.  
-Start slowly with potent actives; increase frequency over time.
+• Provide 2–4 actionable, context-aware tips or cautions based strictly on official info. Examples:
+Use in the evening when layering with retinol.
+Always apply sunscreen during the day when using AHAs.
+Patch test if skin is sensitive.
+Start slowly with potent actives and increase frequency over time.
 
 Tags
 
-[Comma-separated, reflecting search behavior. Include brand variations, product type, concern, benefit. Example:]  
-hydrating face serum, vitamin c serum, dark spot corrector, glowing skin, anti-aging serum, brightening serum, sensitive skin moisturizer, brandname skincare, skin tone evening
-• Always use English commas ( , ) to separate tags—even if the tag text is in Arabic. Shopify treats each comma-separated token as a distinct tag; using Arabic commas أو أي فاصل غير إنجليزي يجعل النظام يفسر الكلام كله كعلامة واحدة أو يشتت التتبع.  
-• Include realistic search variations: brand name variants, product type, skin concern, benefit, common misspellings, and transliterations.  
-• Prioritize high-intent, user-behavior phrases; do not overstuff unnecessarily.
-
-Examples:  
-English: the ordinary, niacinamide serum, brightening serum, oily skin treatment, face hydration  
-Arabic: ذا اورديناري, نياسيناميد سيروم, سيروم تفتيح, علاج البشرة الدهنية, ترطيب الوجه
+• Comma-separated. Include brand name variations, product type, concern, benefit, common misspellings, transliterations.
+• Always use English commas.
+Examples:
+English: the ordinary, niacinamide serum, brightening serum, oily skin treatment, face hydration
+Arabic/translit: ذا اورديناري, نياسيناميد سيروم, سيروم تفتيح, علاج البشرة الدهنية, ترطيب الوجه
 
 Page Title
 
 [Brand Name] [Product Name] | [Primary Benefit or Feature]
-
-Keep within 60–70 characters (ideal 55–65).
+• 60–70 characters max (ideal 55–65).
+• Starts with brand name.
 
 Meta Description
 
-[140–155 characters; include brand, product type, key benefit or ingredient. Example:]  
+• 140–155 characters.
+• Include brand, product type, key benefit or ingredient.
+Example:
 BrandName Vitamin C Serum brightens dark spots and evens skin tone. Lightweight formula delivers antioxidant protection and radiant glow.
 
 Media Alt Text
 
-[5 variations, each under 125 characters, including brand + product + key feature. Examples:]  
-BrandName Vitamin C Serum for Brightening  
-Hydrating Face Serum by BrandName with Hyaluronic Acid  
-BrandName Anti-Aging Serum for Fine Lines  
-Lightweight Glow Serum BrandName for Uneven Skin Tone  
+• 5 variations, each under 125 characters, including brand + product + key feature.
+Examples:
+BrandName Vitamin C Serum for Brightening
+Hydrating Face Serum by BrandName with Hyaluronic Acid
+BrandName Anti-Aging Serum for Fine Lines
+Lightweight Glow Serum BrandName for Uneven Skin Tone
 BrandName Skin Plumping Serum with Peptides
 
-
 ⸻
-
-6. Categorization (for Shopify fields)
+	6.	Categorization (for Shopify fields)
 
 Shopify Category:
-
-Health & Beauty > Personal Care > Cosmetics > Skin Care > [most specific subcategory, e.g., Face Serums, Moisturizers, Eye Creams, Sunscreen]
+Health & Beauty > Personal Care > Cosmetics > Skin Care > [most specific, e.g., Face Serums, Moisturizers, Eye Creams, Sunscreen]
 
 Product Type:
-
-General short label e.g., Serum, Moisturizer, Toner, Eye Cream, Sunscreen, Exfoliant
+Short, general label (e.g., Serum, Moisturizer, Toner, Eye Cream, Sunscreen, Exfoliant)
 
 Collections:
+• Select only from the approved internal collection hierarchy.
+• If the needed collection does not exist in the provided “My Collection List,” do not guess or substitute—flag for review or request addition.
+• A product may belong to multiple collections only if it genuinely fits each.
+• Exact match required (hierarchy and spelling).
+• Do not use deprecated or unofficial labels.
 
-• Select only from the approved internal collection hierarchy (do not invent or pick arbitrary sections).  
-• If the desired collection name is not present in the provided “My Collection List,” do not guess or create a similar-sounding one—flag it for review or request that it be added to the master list.  
-• A product may belong to multiple collections only if it genuinely fits each; avoid over-assigning for exposure.  
-• Always validate: the collection chosen must exactly match one of the entries in the official list (including hierarchy and spelling).  
-• Do not use legacy, deprecated, or unofficial labels; if a seller or source suggests a section not in the list, pause and reconcile before publishing.
-
-Example:  
-Correct: `SKIN CARE > Serum & Treatments > Face Serum`  
-Incorrect: `SKIN CARE > Serums` (if “Serums” is not separately defined in the approved list) — this should be flagged and clarified.
-
-Include multiple only if truly relevant; avoid over-tagging.
+Example correct: SKIN CARE > Serum & Treatments > Face Serum
+Example incorrect (should be flagged): SKIN CARE > Serums if “Serums” isn’t defined.
 
 ⸻
-
-7. Approved Lists (for consistency; use only when supported by official source)
+	7.	Approved Lists (use only if supported by the official source)
 
 Skin Types:
-	•	All skin types
-	•	Dry
-	•	Oily
-	•	Combination
-	•	Sensitive
-	•	Normal
+• All skin types
+• Dry
+• Oily
+• Combination
+• Sensitive
+• Normal
 
-⸻
-
-Key Ingredients (common, adapt per product):
-	•	Niacinamide
-	•	Hyaluronic Acid
-	•	Vitamin C
-	•	Retinol
-	•	Ceramides
-	•	Peptides
-	•	Centella Asiatica
-	•	AHA / BHA
-	•	Panthenol
-	•	Green Tea
-	•	Shea Butter
-	•	Jojoba Oil
-
-⸻
+Key Ingredients (adapt per product):
+• Niacinamide
+• Hyaluronic Acid
+• Vitamin C
+• Retinol
+• Ceramides
+• Peptides
+• Centella Asiatica
+• AHA / BHA
+• Panthenol
+• Green Tea
+• Shea Butter
+• Jojoba Oil
 
 Product Highlights (only if explicitly in official description):
-	•	Vegan
-	•	Cruelty Free
-	•	Fragrance Free
-	•	Non-Comedogenic
-	•	Dermatologically Tested
-	•	Oil Free
-	•	Alcohol Free
-	•	Paraben Free
-	•	Sulfate Free
-
-⸻
+• Vegan
+• Cruelty Free
+• Fragrance Free
+• Non-Comedogenic
+• Dermatologically Tested
+• Oil Free
+• Alcohol Free
+• Paraben Free
+• Sulfate Free
 
 My Collection List:
-1.SKIN CARE
----------------------------
-Cleanse & Exfoliate:
-	• Cleansers
-	• Exfoliators
-	• Micellar Water
-
-Moisturizing & Creams:
-	• Moisturizers
-	• Face Mists
-	• Face Oil
-
-Masks & Peels:
-	• Peels
-	• Sheet Masks
-	• Clay Masks
-
-Serum & Treatments:
-	• Eye Care
-	• Face Serum
-	• Toners
-	• Lip Care
-
-Suncare
-
-2. BUNDLE & SETS
----------------------------
-	• Skin Care Sets
-	• Gift Set
-  
-3. K-BEAUTY
----------------------------
-	• Korean Skin Care
+	1.	SKIN CARE
 
 ⸻
 
-Skin Concerns list (for consistency; use only when supported by official source):
-	• Ingrown Hairs
-	• Razor Burns
-	• Cellulite
-	• Keratosis Pilaris
-	• Body Acne
-	• Dryness
-	• Uneven Skin Tone
-	• Skin Irritation
-	• Acne
-	• Wrinkles
-	• Fine Lines
-	• Blackheads
-	• Dark Circles
-	• Dark Spots
-	• Melasma
-	• Freckles
-	• Dullness
-	• Pimples
-	• Puffiness
-	• Redness
-	• Scars
-	• Oily Skin
-	• Stretch Marks
-	• Loss of Elasticity
-	• Rough Skin
-	• Clogged Pores
-	• Enlarged Pores
-	• Sensitive Skin
-	• Sun Spots
-	• Whiteheads
-	• Hyperpigmentation
-	• Uneven Skin Texture
-	• Signs of Fatigue
-	• Crow's Feet
-	• Eczema
-	• Dead Skin
-	• Sagging
+Cleanse & Exfoliate:
+• Cleansers
+• Exfoliators
+• Micellar Water
+
+Moisturizing & Creams:
+• Moisturizers
+• Face Mists
+• Face Oil
+
+Masks & Peels:
+• Peels
+• Sheet Masks
+• Clay Masks
+
+Serum & Treatments:
+• Eye Care
+• Face Serum
+• Toners
+• Lip Care
+
+Suncare
+	2.	BUNDLE & SETS
+
+⸻
+
+
+• Skin Care Sets  
+• Gift Set  
+
+	3.	K-BEAUTY
+
+⸻
+
+
+• Korean Skin Care  
+
+Skin Concerns list (use only if supported by official source):
+• Ingrown Hairs
+• Razor Burns
+• Cellulite
+• Keratosis Pilaris
+• Body Acne
+• Dryness
+• Uneven Skin Tone
+• Skin Irritation
+• Acne
+• Wrinkles
+• Fine Lines
+• Blackheads
+• Dark Circles
+• Dark Spots
+• Melasma
+• Freckles
+• Dullness
+• Pimples
+• Puffiness
+• Redness
+• Scars
+• Oily Skin
+• Stretch Marks
+• Loss of Elasticity
+• Rough Skin
+• Clogged Pores
+• Enlarged Pores
+• Sensitive Skin
+• Sun Spots
+• Whiteheads
+• Hyperpigmentation
+• Uneven Skin Texture
+• Signs of Fatigue
+• Crow’s Feet
+• Eczema
+• Dead Skin
+• Sagging
 
 ⸻
 
@@ -755,21 +749,24 @@ Shopify category list:\
 
 ⸻
 
-8. Final Verification Checklist (before publishing)
-	•	Is the product correctly identified as skincare?
-	•	Is the English keyword list complete and reflected in copy?
-	•	Does the first sentence include brand name, product type, and high-intent keyword(s)?
-	•	Is the opening paragraph 80–180 words, clear on who it’s for, what it does, how it works, and why it’s different?
-	•	Are only applicable Skin Types and Skin Concerns included?
-	•	Are Key Benefits outcome-focused and specific?
-	•	Is the How to Use section clear on routine placement and frequency?
-	•	Are Ingredients formatted correctly (INCI/Title Case)?
-	•	Are Tips/Warnings actionable and context-aware?
-	•	Is Page Title within length and keyword-optimized?
-	•	Is Meta Description 140–155 characters and compelling?
-	•	Are Tags reflective of search behavior, comma-separated?
-	•	Are Alt Texts varied, descriptive, and under 125 characters?
-	•	Is the Shopify Category specific and correct?
-	•	Are Collections relevant and not excessive?
-	•	No unsupported claims or irrelevant fields included.
+(Do not substitute or invent categories outside the approved hierarchy.)
+
+⸻
+	8.	Final Verification Checklist (before publishing)
+• Is the product correctly identified as skincare?
+• Is the English keyword list complete and reflected in copy?
+• Does the first sentence include brand name, product type, and high-intent keyword(s)?
+• Is the opening paragraph 80–180 words explaining audience, function, mechanism, and differentiation?
+• Are only applicable Skin Types and Skin Concerns included?
+• Are Key Benefits outcome-focused and specific?
+• Is the How to Use section clear on routine placement and frequency, with proper gap before Ingredients?
+• Are Ingredients formatted correctly (INCI / Title Case, comma-separated)?
+• Are Tips/Warnings actionable and source-aligned?
+• Is Page Title within length and keyword-optimized?
+• Is Meta Description 140–155 characters and compelling?
+• Are Tags reflective of realistic search behavior and comma-separated with English commas?
+• Are Alt Texts varied, descriptive, and under 125 characters?
+• Is the Shopify Category specific and correct?
+• Are Collections exact, relevant, and not excessive?
+• No unsupported claims, irrelevant fields, or misapplied category logic included.
 
