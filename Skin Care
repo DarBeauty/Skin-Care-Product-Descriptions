@@ -99,10 +99,12 @@ Critical Requirements
     <li class="whitespace-normal break-words">Step 2 (e.g., follow with moisturizer)</li>
 </ol>
 
-<!-- Or paragraph if not discrete steps: -->
-[Write as a single paragraph noting time of use (morning/evening), layering order, frequency, and any preparation/post notes.]
+<br><br> <!-- ALWAYS include this gap before Ingredients when using a list -->
 
-<br>
+<!-- Or paragraph if not discrete steps: -->
+[Write as a single paragraph noting time of use (morning/evening), layering order, frequency, and any preparation/post notes.]  
+
+<br><br> <!-- ALWAYS include this gap before Ingredients when using a paragraph -->
 
 <strong>Ingredients:</strong> [List full official ingredients in INCI / Title Case, comma-separated, in the order provided by the manufacturer if given.]
 
@@ -123,6 +125,13 @@ Tags
 
 [Comma-separated, reflecting search behavior. Include brand variations, product type, concern, benefit. Example:]  
 hydrating face serum, vitamin c serum, dark spot corrector, glowing skin, anti-aging serum, brightening serum, sensitive skin moisturizer, brandname skincare, skin tone evening
+• Always use English commas ( , ) to separate tags—even if the tag text is in Arabic. Shopify treats each comma-separated token as a distinct tag; using Arabic commas أو أي فاصل غير إنجليزي يجعل النظام يفسر الكلام كله كعلامة واحدة أو يشتت التتبع.  
+• Include realistic search variations: brand name variants, product type, skin concern, benefit, common misspellings, and transliterations.  
+• Prioritize high-intent, user-behavior phrases; do not overstuff unnecessarily.
+
+Examples:  
+English: the ordinary, niacinamide serum, brightening serum, oily skin treatment, face hydration  
+Arabic: ذا اورديناري, نياسيناميد سيروم, سيروم تفتيح, علاج البشرة الدهنية, ترطيب الوجه
 
 Page Title
 
@@ -159,11 +168,15 @@ General short label e.g., Serum, Moisturizer, Toner, Eye Cream, Sunscreen, Exfol
 
 Collections:
 
-Use internal store structure examples:  
-SKIN CARE > Serum & Treatments > Face Serum  
-SKIN CARE > Moisturizers  
-K-BEAUTY > Korean Skin Care  
-ROUTINE > Morning Routine  
+• Select only from the approved internal collection hierarchy (do not invent or pick arbitrary sections).  
+• If the desired collection name is not present in the provided “My Collection List,” do not guess or create a similar-sounding one—flag it for review or request that it be added to the master list.  
+• A product may belong to multiple collections only if it genuinely fits each; avoid over-assigning for exposure.  
+• Always validate: the collection chosen must exactly match one of the entries in the official list (including hierarchy and spelling).  
+• Do not use legacy, deprecated, or unofficial labels; if a seller or source suggests a section not in the list, pause and reconcile before publishing.
+
+Example:  
+Correct: `SKIN CARE > Serum & Treatments > Face Serum`  
+Incorrect: `SKIN CARE > Serums` (if “Serums” is not separately defined in the approved list) — this should be flagged and clarified.
 
 Include multiple only if truly relevant; avoid over-tagging.
 
@@ -211,7 +224,7 @@ Product Highlights (only if explicitly in official description):
 ⸻
 
 My Collection List:
-SKIN CARE
+1.SKIN CARE
 ---------------------------
 Cleanse & Exfoliate:
 	• Cleansers
@@ -235,6 +248,15 @@ Serum & Treatments:
 	• Lip Care
 
 Suncare
+
+2. BUNDLE & SETS
+---------------------------
+	• Skin Care Sets
+	• Gift Set
+  
+3. K-BEAUTY
+---------------------------
+	• Korean Skin Care
 
 ⸻
 
