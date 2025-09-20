@@ -68,7 +68,7 @@ Critical Requirements:
 
 <br>
 
-<strong>Skin Types</strong>
+<strong>Skin Types</strong> <!-- This section applies only to skincare or Bodycare products -->
 
 <ul class="-mt-1 list-disc space-y-2 pl-8">
     <li class="whitespace-normal break-words">[Only applicable: All skin types / Dry / Oily / Combination / Sensitive / Normal]</li>
@@ -76,7 +76,7 @@ Critical Requirements:
 
 <br>
 
-<strong>Skin Concerns</strong>
+<strong>Skin Concerns</strong> <!-- This section applies only to skincare or Bodycare products -->
 
 <ul class="-mt-1 list-disc space-y-2 pl-8">
     <li class="whitespace-normal break-words">[Relevant concerns, e.g., dehydration, hyperpigmentation, aging, dullness, acne, uneven tone]</li>
@@ -95,12 +95,21 @@ Critical Requirements:
 
 <br><br> <!-- ALWAYS include this gap before Ingredients when using a list -->
 
-<!-- Or, if not using step list, provide as a paragraph: -->
+<br> <!-- Or, if not using step list -->
+
 [Write as a single paragraph noting time of use (morning/evening), layering order, frequency, and any prep/post notes.]
 
 <br><br> <!-- ALWAYS include this gap before Ingredients when using a paragraph -->
 
 <strong>Ingredients:</strong> [Full official INCI list / Title Case, comma-separated, in the order given by manufacturer.]
+
+<br>
+
+<strong>Set Contents:</strong> <!-- This section applies only to set or bundle products -->
+<ol class="-mt-1 list-decimal space-y-2 pl-8">
+    <li class="whitespace-normal break-words">product 1 (e.g., product 1 50ml)</li>
+    <li class="whitespace-normal break-words">product 2 (e.g., product 2 100ml)</li>
+    <li class="whitespace-normal break-words">product 3 (e.g., product 3 80ml)</li>
 
 ⸻
 
