@@ -163,8 +163,9 @@ Example incorrect (should be flagged):
 SKIN CARE > Serums  (if "Serums" is not defined in approved list)
 
 Skin Types:
-• Include **only if** the official product description supports it or the General Skin Types Rule explicitly applies.  
-• Choose **exclusively** from the approved list: All skin types, Dry, Oily, Combination, Sensitive, Normal.  
+• This section applies only to skincare products.
+• Include only if the official product description supports it or the General Skin Types Rule explicitly applies.
+• Choose exclusively from the approved list: All skin types, Dry, Oily, Combination, Sensitive, Normal.
 • If not supported, omit this field entirely—do not guess, approximate, or leave placeholders.
 
 Key Ingredients:
