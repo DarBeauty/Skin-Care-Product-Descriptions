@@ -95,7 +95,7 @@ Critical Requirements:
 
 <br><br> <!-- ALWAYS include this gap before Ingredients when using a list -->
 
-<br> <!-- Or, if not using step list -->
+<br><br> <!-- Or, if not using step list -->
 
 [Write as a single paragraph noting time of use (morning/evening), layering order, frequency, and any prep/post notes.]
 
@@ -103,13 +103,14 @@ Critical Requirements:
 
 <strong>Ingredients:</strong> [Full official INCI list / Title Case, comma-separated, in the order given by manufacturer.]
 
-<br>
+<br><br>
 
-<strong>Set Contents:</strong> <!-- This section applies only to set or bundle products -->
+<strong>Set Contents:</strong> <!-- This section is only applicable to product sets and bundles -->
 <ol class="-mt-1 list-decimal space-y-2 pl-8">
     <li class="whitespace-normal break-words">product 1 (e.g., product 1 50ml)</li>
     <li class="whitespace-normal break-words">product 2 (e.g., product 2 100ml)</li>
     <li class="whitespace-normal break-words">product 3 (e.g., product 3 80ml)</li>
+</ol>
 
 ⸻
 
